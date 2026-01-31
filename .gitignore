@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-.env
+# .env // for now we want to track env files because  we deploy on netlify so they needt env files
 *.local
 
 # Editor directories and files
